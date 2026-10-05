@@ -1,0 +1,32 @@
+{
+  "title": "Autoregistros",
+  "templateId": "self_records",
+  "templateTitle": "Autoregistros",
+  "templateResponses": [
+    {
+      "questionId": "situation",
+      "question": "Situación. ¿Qué está pasando? ¿Con qué personas? ¿En qué lugar?",
+      "answer": "blablablablablablablablablablablablablablablabla"
+    },
+    {
+      "questionId": "thought",
+      "question": "Pensamiento. ¿Qué pienso? ¿Qué se me pasa por la cabeza? ¿Qué me digo?",
+      "answer": "blablablablablablablablablablablablablablablablable"
+    },
+    {
+      "questionId": "physiological_sensation",
+      "question": "Sensación fisiológica. ¿Qué noto en el cuerpo? ¿Dónde lo noto?",
+      "answer": "blablablablablablablablablablablablablablablablabli"
+    },
+    {
+      "questionId": "action",
+      "question": "Acción. ¿Qué hago? ¿Qué tengo ganas de hacer?",
+      "answer": "blablablablablablablablablablablablablablablablablo"
+    },
+    {
+      "questionId": "consequence",
+      "question": "Consecuencia. ¿Qué pasa después? ¿Qué pasa dentro de un rato?",
+      "answer": "blablablablablablablablablablablablablablablablablu"
+    }
+  ]
+}

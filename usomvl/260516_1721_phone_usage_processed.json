@@ -1,0 +1,668 @@
+{
+  "daily_blocks": [
+    {
+      "participant_id": null,
+      "filename": "260516_1721_phone_usage.json",
+      "file_type": "phone_usage",
+      "timestamp_from_filename": "2026-05-16T17:21:00",
+      "window_start": "2026-05-16T12:08:15.217000Z",
+      "window_end": "2026-05-16T15:21:25.097000Z",
+      "parse_status": "parsed",
+      "date": "2026-05-16",
+      "metrics": {
+        "screen_time_minutes": 23.71,
+        "unlock_count": 1,
+        "app_switches": 63,
+        "short_sessions": {
+          "<5s": 50,
+          "<10s": 53
+        },
+        "categories": {
+          "messaging": {
+            "minutes": 4.78,
+            "opens": 5,
+            "average_session_seconds": 143.5,
+            "events": 28,
+            "time_percentage": 20.18
+          },
+          "music": {
+            "minutes": 0.42,
+            "opens": 1,
+            "average_session_seconds": 25.1,
+            "events": 1,
+            "time_percentage": 1.76
+          },
+          "navigation": {
+            "minutes": 0.43,
+            "opens": 1,
+            "average_session_seconds": 25.7,
+            "events": 0,
+            "time_percentage": 1.81
+          },
+          "other": {
+            "minutes": 7.88,
+            "opens": 80,
+            "average_session_seconds": 29.5,
+            "events": 163,
+            "time_percentage": 33.22
+          },
+          "productivity": {
+            "minutes": 10.21,
+            "opens": 44,
+            "average_session_seconds": 306.2,
+            "events": 46,
+            "time_percentage": 43.04
+          }
+        },
+        "usage_by_hour": [
+          {
+            "hour": "2026-05-16T15:00:00Z",
+            "minutes": 5.6
+          }
+        ],
+        "events_by_category": {
+          "messaging": 28,
+          "music": 1,
+          "other": 163,
+          "productivity": 46,
+          "video_streaming": 1
+        },
+        "app_usage_stats": [
+          {
+            "package_name": "com.better.better",
+            "category": "productivity",
+            "minutes": 10.16,
+            "opens": 43
+          },
+          {
+            "package_name": "com.miui.home",
+            "category": "other",
+            "minutes": 6.15,
+            "opens": 19
+          },
+          {
+            "package_name": "com.whatsapp",
+            "category": "messaging",
+            "minutes": 4.78,
+            "opens": 5
+          },
+          {
+            "package_name": "com.miui.securitycenter",
+            "category": "other",
+            "minutes": 0.95,
+            "opens": 10
+          },
+          {
+            "package_name": "com.opera.browser",
+            "category": "navigation",
+            "minutes": 0.43,
+            "opens": 1
+          },
+          {
+            "package_name": "com.google.android.apps.youtube.music",
+            "category": "music",
+            "minutes": 0.42,
+            "opens": 1
+          },
+          {
+            "package_name": "com.android.settings",
+            "category": "other",
+            "minutes": 0.37,
+            "opens": 6
+          },
+          {
+            "package_name": "com.google.android.healthconnect.controller",
+            "category": "other",
+            "minutes": 0.22,
+            "opens": 9
+          },
+          {
+            "package_name": "com.google.android.permissioncontroller",
+            "category": "other",
+            "minutes": 0.2,
+            "opens": 36
+          },
+          {
+            "package_name": "com.google.android.calendar",
+            "category": "productivity",
+            "minutes": 0.04,
+            "opens": 1
+          },
+          {
+            "package_name": "com.microsoft.appmanager",
+            "category": "other",
+            "minutes": 0.0,
+            "opens": 0
+          },
+          {
+            "package_name": "com.bitdefender.security",
+            "category": "other",
+            "minutes": 0.0,
+            "opens": 0
+          },
+          {
+            "package_name": "com.google.android.apps.messaging",
+            "category": "messaging",
+            "minutes": 0.0,
+            "opens": 0
+          },
+          {
+            "package_name": "com.android.vending",
+            "category": "other",
+            "minutes": 0.0,
+            "opens": 0
+          },
+          {
+            "package_name": "com.android.mtp",
+            "category": "other",
+            "minutes": 0.0,
+            "opens": 0
+          },
+          {
+            "package_name": "com.miui.cleaner",
+            "category": "other",
+            "minutes": 0.0,
+            "opens": 0
+          },
+          {
+            "package_name": "com.miui.misound",
+            "category": "other",
+            "minutes": 0.0,
+            "opens": 0
+          },
+          {
+            "package_name": "com.xiaomi.aicr",
+            "category": "other",
+            "minutes": 0.0,
+            "opens": 0
+          },
+          {
+            "package_name": "com.xiaomi.mipicks",
+            "category": "other",
+            "minutes": 0.0,
+            "opens": 0
+          },
+          {
+            "package_name": "com.xiaomi.finddevice",
+            "category": "other",
+            "minutes": 0.0,
+            "opens": 0
+          },
+          {
+            "package_name": "com.sec.android.app.shealth",
+            "category": "other",
+            "minutes": 0.0,
+            "opens": 0
+          },
+          {
+            "package_name": "com.xiaomi.discover",
+            "category": "other",
+            "minutes": 0.0,
+            "opens": 0
+          }
+        ],
+        "average_session_seconds": 5.2
+      },
+      "compulsive_metrics": {
+        "rapid_reopenings": 25,
+        "average_session_seconds": 5.2,
+        "unlock_to_social_average_seconds": null,
+        "short_session_pressure": {
+          "sessions_under_5_seconds": 50,
+          "sessions_under_10_seconds": 53
+        },
+        "app_switches": 63
+      },
+      "sessions": [
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:15:11.210000Z",
+          "end_time": "2026-05-16T15:15:54.327000Z",
+          "duration_seconds": 43.1,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:15:54.335000Z",
+          "end_time": "2026-05-16T15:15:57.859000Z",
+          "duration_seconds": 3.5,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:15:57.883000Z",
+          "end_time": "2026-05-16T15:16:02.264000Z",
+          "duration_seconds": 4.4,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "productivity",
+          "start_time": "2026-05-16T15:16:03.238000Z",
+          "end_time": "2026-05-16T15:16:07.983000Z",
+          "duration_seconds": 4.7,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "messaging",
+          "start_time": "2026-05-16T15:16:08.053000Z",
+          "end_time": "2026-05-16T15:16:28.762000Z",
+          "duration_seconds": 20.7,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "messaging",
+          "start_time": "2026-05-16T15:16:28.804000Z",
+          "end_time": "2026-05-16T15:16:29.706000Z",
+          "duration_seconds": 0.9,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "productivity",
+          "start_time": "2026-05-16T15:16:30.113000Z",
+          "end_time": "2026-05-16T15:16:35.136000Z",
+          "duration_seconds": 5.0,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:16:35.136000Z",
+          "end_time": "2026-05-16T15:16:35.419000Z",
+          "duration_seconds": 0.3,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:16:35.505000Z",
+          "end_time": "2026-05-16T15:16:35.570000Z",
+          "duration_seconds": 0.1,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:16:40.385000Z",
+          "end_time": "2026-05-16T15:16:42.484000Z",
+          "duration_seconds": 2.1,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:16:57.963000Z",
+          "end_time": "2026-05-16T15:16:59.408000Z",
+          "duration_seconds": 1.4,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "productivity",
+          "start_time": "2026-05-16T15:16:59.411000Z",
+          "end_time": "2026-05-16T15:17:03.859000Z",
+          "duration_seconds": 4.4,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:17:03.859000Z",
+          "end_time": "2026-05-16T15:17:06.213000Z",
+          "duration_seconds": 2.4,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "productivity",
+          "start_time": "2026-05-16T15:17:06.214000Z",
+          "end_time": "2026-05-16T15:17:07.276000Z",
+          "duration_seconds": 1.1,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:17:07.276000Z",
+          "end_time": "2026-05-16T15:17:09.811000Z",
+          "duration_seconds": 2.5,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "productivity",
+          "start_time": "2026-05-16T15:17:09.818000Z",
+          "end_time": "2026-05-16T15:17:12.696000Z",
+          "duration_seconds": 2.9,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:17:12.696000Z",
+          "end_time": "2026-05-16T15:17:29.213000Z",
+          "duration_seconds": 16.5,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:17:29.455000Z",
+          "end_time": "2026-05-16T15:17:29.664000Z",
+          "duration_seconds": 0.2,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:17:29.685000Z",
+          "end_time": "2026-05-16T15:18:00.975000Z",
+          "duration_seconds": 31.3,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:18:01.331000Z",
+          "end_time": "2026-05-16T15:18:13.241000Z",
+          "duration_seconds": 11.9,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:18:13.271000Z",
+          "end_time": "2026-05-16T15:18:43.534000Z",
+          "duration_seconds": 30.3,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:18:43.650000Z",
+          "end_time": "2026-05-16T15:18:45.361000Z",
+          "duration_seconds": 1.7,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:18:45.369000Z",
+          "end_time": "2026-05-16T15:18:49.516000Z",
+          "duration_seconds": 4.1,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "productivity",
+          "start_time": "2026-05-16T15:18:50.442000Z",
+          "end_time": "2026-05-16T15:19:02.171000Z",
+          "duration_seconds": 11.7,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:19:02.171000Z",
+          "end_time": "2026-05-16T15:19:02.294000Z",
+          "duration_seconds": 0.1,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:19:05.636000Z",
+          "end_time": "2026-05-16T15:19:05.751000Z",
+          "duration_seconds": 0.1,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:19:13.650000Z",
+          "end_time": "2026-05-16T15:19:14.532000Z",
+          "duration_seconds": 0.9,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "productivity",
+          "start_time": "2026-05-16T15:19:14.544000Z",
+          "end_time": "2026-05-16T15:19:15.102000Z",
+          "duration_seconds": 0.6,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:19:15.377000Z",
+          "end_time": "2026-05-16T15:19:20.149000Z",
+          "duration_seconds": 4.8,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:19:20.164000Z",
+          "end_time": "2026-05-16T15:19:20.922000Z",
+          "duration_seconds": 0.8,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:19:21.581000Z",
+          "end_time": "2026-05-16T15:19:32.032000Z",
+          "duration_seconds": 10.5,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:19:32.040000Z",
+          "end_time": "2026-05-16T15:19:33.077000Z",
+          "duration_seconds": 1.0,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:19:33.085000Z",
+          "end_time": "2026-05-16T15:19:33.672000Z",
+          "duration_seconds": 0.6,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "productivity",
+          "start_time": "2026-05-16T15:19:33.681000Z",
+          "end_time": "2026-05-16T15:19:35.045000Z",
+          "duration_seconds": 1.4,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:19:35.063000Z",
+          "end_time": "2026-05-16T15:19:35.921000Z",
+          "duration_seconds": 0.9,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "productivity",
+          "start_time": "2026-05-16T15:19:35.942000Z",
+          "end_time": "2026-05-16T15:19:36.651000Z",
+          "duration_seconds": 0.7,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:19:36.663000Z",
+          "end_time": "2026-05-16T15:19:37.316000Z",
+          "duration_seconds": 0.7,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "productivity",
+          "start_time": "2026-05-16T15:19:37.323000Z",
+          "end_time": "2026-05-16T15:19:37.403000Z",
+          "duration_seconds": 0.1,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:19:37.408000Z",
+          "end_time": "2026-05-16T15:19:37.568000Z",
+          "duration_seconds": 0.2,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:19:37.697000Z",
+          "end_time": "2026-05-16T15:19:39.234000Z",
+          "duration_seconds": 1.5,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:19:39.234000Z",
+          "end_time": "2026-05-16T15:19:39.305000Z",
+          "duration_seconds": 0.1,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:19:39.877000Z",
+          "end_time": "2026-05-16T15:19:39.933000Z",
+          "duration_seconds": 0.1,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "productivity",
+          "start_time": "2026-05-16T15:19:39.952000Z",
+          "end_time": "2026-05-16T15:19:40.042000Z",
+          "duration_seconds": 0.1,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:19:40.063000Z",
+          "end_time": "2026-05-16T15:19:40.064000Z",
+          "duration_seconds": 0.0,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:19:40.265000Z",
+          "end_time": "2026-05-16T15:19:41.095000Z",
+          "duration_seconds": 0.8,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:19:41.104000Z",
+          "end_time": "2026-05-16T15:19:41.156000Z",
+          "duration_seconds": 0.1,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "productivity",
+          "start_time": "2026-05-16T15:19:41.160000Z",
+          "end_time": "2026-05-16T15:19:41.255000Z",
+          "duration_seconds": 0.1,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:19:41.261000Z",
+          "end_time": "2026-05-16T15:19:41.428000Z",
+          "duration_seconds": 0.2,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:19:41.439000Z",
+          "end_time": "2026-05-16T15:19:42.317000Z",
+          "duration_seconds": 0.9,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:19:42.326000Z",
+          "end_time": "2026-05-16T15:19:42.362000Z",
+          "duration_seconds": 0.0,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "productivity",
+          "start_time": "2026-05-16T15:19:42.367000Z",
+          "end_time": "2026-05-16T15:19:43.254000Z",
+          "duration_seconds": 0.9,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:19:43.261000Z",
+          "end_time": "2026-05-16T15:19:43.908000Z",
+          "duration_seconds": 0.6,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "productivity",
+          "start_time": "2026-05-16T15:19:43.916000Z",
+          "end_time": "2026-05-16T15:19:44.253000Z",
+          "duration_seconds": 0.3,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:19:44.264000Z",
+          "end_time": "2026-05-16T15:19:44.440000Z",
+          "duration_seconds": 0.2,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "productivity",
+          "start_time": "2026-05-16T15:19:44.445000Z",
+          "end_time": "2026-05-16T15:19:44.494000Z",
+          "duration_seconds": 0.0,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:19:44.504000Z",
+          "end_time": "2026-05-16T15:19:44.526000Z",
+          "duration_seconds": 0.0,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "productivity",
+          "start_time": "2026-05-16T15:19:44.652000Z",
+          "end_time": "2026-05-16T15:20:29.561000Z",
+          "duration_seconds": 44.9,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:20:29.561000Z",
+          "end_time": "2026-05-16T15:20:30.076000Z",
+          "duration_seconds": 0.5,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:20:30.504000Z",
+          "end_time": "2026-05-16T15:20:32.053000Z",
+          "duration_seconds": 1.5,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "productivity",
+          "start_time": "2026-05-16T15:20:32.056000Z",
+          "end_time": "2026-05-16T15:20:47.113000Z",
+          "duration_seconds": 15.1,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:20:47.113000Z",
+          "end_time": "2026-05-16T15:20:55.915000Z",
+          "duration_seconds": 8.8,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "productivity",
+          "start_time": "2026-05-16T15:20:55.916000Z",
+          "end_time": "2026-05-16T15:21:17.041000Z",
+          "duration_seconds": 21.1,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-05-16T15:21:17.041000Z",
+          "end_time": "2026-05-16T15:21:22.244000Z",
+          "duration_seconds": 5.2,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "productivity",
+          "start_time": "2026-05-16T15:21:22.827000Z",
+          "end_time": "2026-05-16T15:21:25.097000Z",
+          "duration_seconds": 2.3,
+          "unlock_to_open_seconds": null
+        }
+      ]
+    }
+  ]
+}

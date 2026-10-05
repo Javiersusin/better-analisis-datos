@@ -1,0 +1,484 @@
+{
+  "daily_blocks": [
+    {
+      "participant_id": null,
+      "filename": "260622_1309_phone_usage.json",
+      "file_type": "phone_usage",
+      "timestamp_from_filename": "2026-06-22T13:09:00",
+      "window_start": "2026-06-22T08:08:50.062000Z",
+      "window_end": "2026-06-22T11:09:16.066000Z",
+      "parse_status": "parsed",
+      "date": "2026-06-22",
+      "metrics": {
+        "screen_time_minutes": 22.21,
+        "unlock_count": 2,
+        "app_switches": 47,
+        "short_sessions": {
+          "<5s": 37,
+          "<10s": 42
+        },
+        "categories": {
+          "messaging": {
+            "minutes": 0.92,
+            "opens": 6,
+            "average_session_seconds": 27.6,
+            "events": 19,
+            "time_percentage": 4.15
+          },
+          "other": {
+            "minutes": 19.77,
+            "opens": 32,
+            "average_session_seconds": 237.2,
+            "events": 92,
+            "time_percentage": 89.02
+          },
+          "system": {
+            "minutes": 1.52,
+            "opens": 8,
+            "average_session_seconds": 18.2,
+            "events": 45,
+            "time_percentage": 6.83
+          }
+        },
+        "usage_by_hour": [
+          {
+            "hour": "2026-06-22T10:00:00Z",
+            "minutes": 2.83
+          },
+          {
+            "hour": "2026-06-22T11:00:00Z",
+            "minutes": 4.05
+          }
+        ],
+        "events_by_category": {
+          "messaging": 19,
+          "other": 92,
+          "system": 45
+        },
+        "app_usage_stats": [
+          {
+            "package_name": "com.geeksville.mesh",
+            "category": "other",
+            "minutes": 13.42,
+            "opens": 3
+          },
+          {
+            "package_name": "com.better.better",
+            "category": "other",
+            "minutes": 4.46,
+            "opens": 12
+          },
+          {
+            "package_name": "com.sec.android.app.launcher",
+            "category": "other",
+            "minutes": 1.29,
+            "opens": 11
+          },
+          {
+            "package_name": "com.android.settings",
+            "category": "system",
+            "minutes": 0.77,
+            "opens": 2
+          },
+          {
+            "package_name": "com.whatsapp",
+            "category": "messaging",
+            "minutes": 0.59,
+            "opens": 1
+          },
+          {
+            "package_name": "com.android.vending",
+            "category": "system",
+            "minutes": 0.39,
+            "opens": 1
+          },
+          {
+            "package_name": "com.microsoft.teams",
+            "category": "messaging",
+            "minutes": 0.33,
+            "opens": 5
+          },
+          {
+            "package_name": "com.google.android.apps.healthdata",
+            "category": "other",
+            "minutes": 0.32,
+            "opens": 5
+          },
+          {
+            "package_name": "com.xiaomi.wearable",
+            "category": "other",
+            "minutes": 0.28,
+            "opens": 1
+          },
+          {
+            "package_name": "com.android.chrome",
+            "category": "system",
+            "minutes": 0.21,
+            "opens": 1
+          },
+          {
+            "package_name": "com.google.android.permissioncontroller",
+            "category": "system",
+            "minutes": 0.08,
+            "opens": 2
+          },
+          {
+            "package_name": "android",
+            "category": "system",
+            "minutes": 0.07,
+            "opens": 2
+          }
+        ],
+        "average_session_seconds": 8.6
+      },
+      "compulsive_metrics": {
+        "rapid_reopenings": 24,
+        "average_session_seconds": 8.6,
+        "unlock_to_social_average_seconds": null,
+        "short_session_pressure": {
+          "sessions_under_5_seconds": 37,
+          "sessions_under_10_seconds": 42
+        },
+        "app_switches": 47
+      },
+      "sessions": [
+        {
+          "category": "other",
+          "start_time": "2026-06-22T10:56:58.213000Z",
+          "end_time": "2026-06-22T10:57:00.274000Z",
+          "duration_seconds": 2.1,
+          "unlock_to_open_seconds": 0.3
+        },
+        {
+          "category": "other",
+          "start_time": "2026-06-22T10:57:00.281000Z",
+          "end_time": "2026-06-22T10:57:07.291000Z",
+          "duration_seconds": 7.0,
+          "unlock_to_open_seconds": 1.8
+        },
+        {
+          "category": "messaging",
+          "start_time": "2026-06-22T10:57:07.329000Z",
+          "end_time": "2026-06-22T10:57:13.788000Z",
+          "duration_seconds": 6.5,
+          "unlock_to_open_seconds": 8.8
+        },
+        {
+          "category": "system",
+          "start_time": "2026-06-22T10:57:13.867000Z",
+          "end_time": "2026-06-22T10:57:14.672000Z",
+          "duration_seconds": 0.8,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "system",
+          "start_time": "2026-06-22T10:57:14.692000Z",
+          "end_time": "2026-06-22T10:57:15.431000Z",
+          "duration_seconds": 0.7,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "system",
+          "start_time": "2026-06-22T10:57:26.743000Z",
+          "end_time": "2026-06-22T10:57:28.064000Z",
+          "duration_seconds": 1.3,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "system",
+          "start_time": "2026-06-22T10:57:28.077000Z",
+          "end_time": "2026-06-22T10:57:49.862000Z",
+          "duration_seconds": 21.8,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-06-22T10:57:50.017000Z",
+          "end_time": "2026-06-22T10:57:59.152000Z",
+          "duration_seconds": 9.1,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-06-22T10:57:59.167000Z",
+          "end_time": "2026-06-22T10:58:01.757000Z",
+          "duration_seconds": 2.6,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "messaging",
+          "start_time": "2026-06-22T10:58:01.773000Z",
+          "end_time": "2026-06-22T10:58:06.471000Z",
+          "duration_seconds": 4.7,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "system",
+          "start_time": "2026-06-22T10:58:06.491000Z",
+          "end_time": "2026-06-22T10:58:08.967000Z",
+          "duration_seconds": 2.5,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "messaging",
+          "start_time": "2026-06-22T10:58:09.021000Z",
+          "end_time": "2026-06-22T10:58:11.279000Z",
+          "duration_seconds": 2.3,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-06-22T10:58:11.288000Z",
+          "end_time": "2026-06-22T10:58:11.829000Z",
+          "duration_seconds": 0.5,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-06-22T10:58:11.843000Z",
+          "end_time": "2026-06-22T10:58:21.959000Z",
+          "duration_seconds": 10.1,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-06-22T10:58:21.963000Z",
+          "end_time": "2026-06-22T10:58:22.269000Z",
+          "duration_seconds": 0.3,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "messaging",
+          "start_time": "2026-06-22T10:58:22.292000Z",
+          "end_time": "2026-06-22T10:58:25.184000Z",
+          "duration_seconds": 2.9,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "system",
+          "start_time": "2026-06-22T10:58:25.199000Z",
+          "end_time": "2026-06-22T10:58:26.852000Z",
+          "duration_seconds": 1.7,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "messaging",
+          "start_time": "2026-06-22T10:58:26.886000Z",
+          "end_time": "2026-06-22T10:58:30.439000Z",
+          "duration_seconds": 3.6,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-06-22T10:58:30.447000Z",
+          "end_time": "2026-06-22T10:58:30.666000Z",
+          "duration_seconds": 0.2,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-06-22T10:58:30.680000Z",
+          "end_time": "2026-06-22T10:59:32.329000Z",
+          "duration_seconds": 61.6,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "system",
+          "start_time": "2026-06-22T10:59:32.364000Z",
+          "end_time": "2026-06-22T11:00:12.716000Z",
+          "duration_seconds": 40.4,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "system",
+          "start_time": "2026-06-22T11:00:12.734000Z",
+          "end_time": "2026-06-22T11:00:13.399000Z",
+          "duration_seconds": 0.7,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-06-22T11:00:15.633000Z",
+          "end_time": "2026-06-22T11:00:19.244000Z",
+          "duration_seconds": 3.6,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "system",
+          "start_time": "2026-06-22T11:00:19.256000Z",
+          "end_time": "2026-06-22T11:00:22.525000Z",
+          "duration_seconds": 3.3,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-06-22T11:00:22.559000Z",
+          "end_time": "2026-06-22T11:00:22.646000Z",
+          "duration_seconds": 0.1,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-06-22T11:00:22.743000Z",
+          "end_time": "2026-06-22T11:00:23.096000Z",
+          "duration_seconds": 0.4,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-06-22T11:00:23.114000Z",
+          "end_time": "2026-06-22T11:00:23.295000Z",
+          "duration_seconds": 0.2,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-06-22T11:00:35.764000Z",
+          "end_time": "2026-06-22T11:00:35.825000Z",
+          "duration_seconds": 0.1,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-06-22T11:00:35.840000Z",
+          "end_time": "2026-06-22T11:00:35.912000Z",
+          "duration_seconds": 0.1,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-06-22T11:00:35.960000Z",
+          "end_time": "2026-06-22T11:00:36.391000Z",
+          "duration_seconds": 0.4,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-06-22T11:00:38.131000Z",
+          "end_time": "2026-06-22T11:00:38.191000Z",
+          "duration_seconds": 0.1,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-06-22T11:00:38.209000Z",
+          "end_time": "2026-06-22T11:00:38.318000Z",
+          "duration_seconds": 0.1,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-06-22T11:00:38.322000Z",
+          "end_time": "2026-06-22T11:00:38.759000Z",
+          "duration_seconds": 0.4,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-06-22T11:00:41.825000Z",
+          "end_time": "2026-06-22T11:00:45.679000Z",
+          "duration_seconds": 3.9,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "system",
+          "start_time": "2026-06-22T11:00:45.700000Z",
+          "end_time": "2026-06-22T11:00:47.051000Z",
+          "duration_seconds": 1.4,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-06-22T11:00:47.078000Z",
+          "end_time": "2026-06-22T11:00:47.321000Z",
+          "duration_seconds": 0.2,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-06-22T11:00:47.337000Z",
+          "end_time": "2026-06-22T11:00:47.416000Z",
+          "duration_seconds": 0.1,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-06-22T11:00:47.445000Z",
+          "end_time": "2026-06-22T11:00:47.486000Z",
+          "duration_seconds": 0.0,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-06-22T11:00:47.500000Z",
+          "end_time": "2026-06-22T11:00:47.540000Z",
+          "duration_seconds": 0.0,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-06-22T11:00:47.615000Z",
+          "end_time": "2026-06-22T11:03:46.232000Z",
+          "duration_seconds": 178.6,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-06-22T11:03:46.245000Z",
+          "end_time": "2026-06-22T11:03:46.356000Z",
+          "duration_seconds": 0.1,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "system",
+          "start_time": "2026-06-22T11:03:46.414000Z",
+          "end_time": "2026-06-22T11:03:49.551000Z",
+          "duration_seconds": 3.1,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-06-22T11:03:49.558000Z",
+          "end_time": "2026-06-22T11:03:52.869000Z",
+          "duration_seconds": 3.3,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-06-22T11:07:51.998000Z",
+          "end_time": "2026-06-22T11:07:59.411000Z",
+          "duration_seconds": 7.4,
+          "unlock_to_open_seconds": 0.2
+        },
+        {
+          "category": "other",
+          "start_time": "2026-06-22T11:07:59.416000Z",
+          "end_time": "2026-06-22T11:08:10.366000Z",
+          "duration_seconds": 10.9,
+          "unlock_to_open_seconds": 6.9
+        },
+        {
+          "category": "other",
+          "start_time": "2026-06-22T11:08:10.384000Z",
+          "end_time": "2026-06-22T11:08:10.947000Z",
+          "duration_seconds": 0.6,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-06-22T11:09:04.857000Z",
+          "end_time": "2026-06-22T11:09:14.808000Z",
+          "duration_seconds": 10.0,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "other",
+          "start_time": "2026-06-22T11:09:14.812000Z",
+          "end_time": "2026-06-22T11:09:16.042000Z",
+          "duration_seconds": 1.2,
+          "unlock_to_open_seconds": null
+        }
+      ]
+    }
+  ]
+}

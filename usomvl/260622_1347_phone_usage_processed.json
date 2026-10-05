@@ -1,0 +1,244 @@
+{
+  "daily_blocks": [
+    {
+      "participant_id": null,
+      "filename": "260622_1347_phone_usage.json",
+      "file_type": "phone_usage",
+      "timestamp_from_filename": "2026-06-22T13:47:00",
+      "window_start": "2026-06-22T01:12:08.182000Z",
+      "window_end": "2026-06-22T11:47:55.833000Z",
+      "parse_status": "parsed",
+      "date": "2026-06-22",
+      "metrics": {
+        "screen_time_minutes": 29.09,
+        "unlock_count": 2,
+        "app_switches": 3,
+        "short_sessions": {
+          "<5s": 3,
+          "<10s": 4
+        },
+        "categories": {
+          "messaging": {
+            "minutes": 11.82,
+            "opens": 8,
+            "average_session_seconds": 236.3,
+            "events": 0,
+            "time_percentage": 40.61
+          },
+          "other": {
+            "minutes": 16.54,
+            "opens": 55,
+            "average_session_seconds": 62.0,
+            "events": 13,
+            "time_percentage": 56.86
+          },
+          "system": {
+            "minutes": 0.43,
+            "opens": 8,
+            "average_session_seconds": 8.6,
+            "events": 6,
+            "time_percentage": 1.49
+          },
+          "video_streaming": {
+            "minutes": 0.3,
+            "opens": 1,
+            "average_session_seconds": 18.2,
+            "events": 0,
+            "time_percentage": 1.04
+          }
+        },
+        "usage_by_hour": [
+          {
+            "hour": "2026-06-22T11:00:00Z",
+            "minutes": 0.18
+          }
+        ],
+        "events_by_category": {
+          "other": 13,
+          "system": 6
+        },
+        "app_usage_stats": [
+          {
+            "package_name": "com.whatsapp",
+            "category": "messaging",
+            "minutes": 11.82,
+            "opens": 8
+          },
+          {
+            "package_name": "com.newchat.setlog",
+            "category": "other",
+            "minutes": 5.56,
+            "opens": 9
+          },
+          {
+            "package_name": "com.motorola.launcher3",
+            "category": "other",
+            "minutes": 3.29,
+            "opens": 23
+          },
+          {
+            "package_name": "com.better.better",
+            "category": "other",
+            "minutes": 2.36,
+            "opens": 7
+          },
+          {
+            "package_name": "com.google.android.deskclock",
+            "category": "other",
+            "minutes": 1.66,
+            "opens": 3
+          },
+          {
+            "package_name": "com.google.android.gm",
+            "category": "other",
+            "minutes": 1.07,
+            "opens": 2
+          },
+          {
+            "package_name": "com.sofascore.results",
+            "category": "other",
+            "minutes": 0.81,
+            "opens": 2
+          },
+          {
+            "package_name": "splid.teamturtle.com.splid",
+            "category": "other",
+            "minutes": 0.64,
+            "opens": 1
+          },
+          {
+            "package_name": "app.revanced.android.youtube",
+            "category": "other",
+            "minutes": 0.51,
+            "opens": 1
+          },
+          {
+            "package_name": "org.mozilla.firefox",
+            "category": "other",
+            "minutes": 0.31,
+            "opens": 1
+          },
+          {
+            "package_name": "com.google.android.youtube",
+            "category": "video_streaming",
+            "minutes": 0.3,
+            "opens": 1
+          },
+          {
+            "package_name": "com.android.vending",
+            "category": "system",
+            "minutes": 0.27,
+            "opens": 1
+          },
+          {
+            "package_name": "com.bbva.bbvacontigo",
+            "category": "other",
+            "minutes": 0.16,
+            "opens": 2
+          },
+          {
+            "package_name": "com.android.settings",
+            "category": "system",
+            "minutes": 0.11,
+            "opens": 1
+          },
+          {
+            "package_name": "com.google.android.healthconnect.controller",
+            "category": "other",
+            "minutes": 0.09,
+            "opens": 2
+          },
+          {
+            "package_name": "com.google.android.calendar",
+            "category": "other",
+            "minutes": 0.08,
+            "opens": 1
+          },
+          {
+            "package_name": "com.google.android.permissioncontroller",
+            "category": "system",
+            "minutes": 0.06,
+            "opens": 6
+          },
+          {
+            "package_name": "com.google.android.apps.wellbeing",
+            "category": "other",
+            "minutes": 0.0,
+            "opens": 1
+          },
+          {
+            "package_name": "com.google.android.googlequicksearchbox",
+            "category": "other",
+            "minutes": 0.0,
+            "opens": 0
+          },
+          {
+            "package_name": "com.google.android.apps.messaging",
+            "category": "messaging",
+            "minutes": 0.0,
+            "opens": 0
+          },
+          {
+            "package_name": "com.xiaomi.wearable",
+            "category": "other",
+            "minutes": 0.0,
+            "opens": 0
+          },
+          {
+            "package_name": "com.google.android.projection.gearhead",
+            "category": "other",
+            "minutes": 0.0,
+            "opens": 0
+          },
+          {
+            "package_name": "com.microsoft.teams",
+            "category": "messaging",
+            "minutes": 0.0,
+            "opens": 0
+          }
+        ],
+        "average_session_seconds": 2.8
+      },
+      "compulsive_metrics": {
+        "rapid_reopenings": 2,
+        "average_session_seconds": 2.8,
+        "unlock_to_social_average_seconds": null,
+        "short_session_pressure": {
+          "sessions_under_5_seconds": 3,
+          "sessions_under_10_seconds": 4
+        },
+        "app_switches": 3
+      },
+      "sessions": [
+        {
+          "category": "other",
+          "start_time": "2026-06-22T11:39:39.160000Z",
+          "end_time": "2026-06-22T11:39:41.420000Z",
+          "duration_seconds": 2.3,
+          "unlock_to_open_seconds": 0.9
+        },
+        {
+          "category": "other",
+          "start_time": "2026-06-22T11:39:41.430000Z",
+          "end_time": "2026-06-22T11:39:49.067000Z",
+          "duration_seconds": 7.6,
+          "unlock_to_open_seconds": 2.1
+        },
+        {
+          "category": "other",
+          "start_time": "2026-06-22T11:47:54.661000Z",
+          "end_time": "2026-06-22T11:47:55.658000Z",
+          "duration_seconds": 1.0,
+          "unlock_to_open_seconds": 2.1
+        },
+        {
+          "category": "other",
+          "start_time": "2026-06-22T11:47:55.675000Z",
+          "end_time": "2026-06-22T11:47:55.833000Z",
+          "duration_seconds": 0.2,
+          "unlock_to_open_seconds": 0.8
+        }
+      ]
+    }
+  ]
+}

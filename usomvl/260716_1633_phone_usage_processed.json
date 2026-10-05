@@ -1,0 +1,246 @@
+{
+  "daily_blocks": [
+    {
+      "participant_id": null,
+      "filename": "260716_1633_phone_usage.json",
+      "file_type": "phone_usage",
+      "timestamp_from_filename": "2026-07-16T16:33:00",
+      "window_start": "2026-07-15T20:00:00Z",
+      "window_end": "2026-07-15T20:28:00Z",
+      "parse_status": "parsed",
+      "date": "2026-07-15",
+      "metrics": {
+        "screen_time_minutes": 26.88,
+        "unlock_count": 1,
+        "app_switches": 1,
+        "short_sessions": {
+          "<5s": 0,
+          "5-10s": 0
+        },
+        "categories": {
+          "messaging": {
+            "minutes": 6.97,
+            "opens": 1,
+            "average_session_seconds": 418.0,
+            "events": 2,
+            "time_percentage": 25.91
+          },
+          "video_streaming": {
+            "minutes": 19.92,
+            "opens": 1,
+            "average_session_seconds": 1195.0,
+            "events": 2,
+            "time_percentage": 74.09
+          }
+        },
+        "usage_by_hour": [
+          {
+            "hour": "2026-07-15T20:00:00Z",
+            "minutes": 26.88
+          }
+        ],
+        "events_by_category": {
+          "messaging": 2,
+          "other": 4,
+          "video_streaming": 2
+        },
+        "average_session_seconds": 806.5
+      },
+      "compulsive_metrics": {
+        "rapid_reopenings": 0,
+        "average_session_seconds": 806.5,
+        "unlock_to_social_average_seconds": null,
+        "short_session_pressure": {
+          "<5s": 0,
+          "5-10s": 0
+        },
+        "app_switches": 1
+      },
+      "sessions": [
+        {
+          "category": "messaging",
+          "start_time": "2026-07-15T20:00:02Z",
+          "end_time": "2026-07-15T20:07:00Z",
+          "duration_seconds": 418.0,
+          "unlock_to_open_seconds": 1.0
+        },
+        {
+          "category": "video_streaming",
+          "start_time": "2026-07-15T20:07:05Z",
+          "end_time": "2026-07-15T20:27:00Z",
+          "duration_seconds": 1195.0,
+          "unlock_to_open_seconds": null
+        }
+      ]
+    },
+    {
+      "participant_id": null,
+      "filename": "260716_1633_phone_usage.json",
+      "file_type": "phone_usage",
+      "timestamp_from_filename": "2026-07-16T16:33:00",
+      "window_start": "2026-07-16T09:00:00Z",
+      "window_end": "2026-07-16T10:05:12Z",
+      "parse_status": "parsed",
+      "date": "2026-07-16",
+      "metrics": {
+        "screen_time_minutes": 15.97,
+        "unlock_count": 5,
+        "app_switches": 13,
+        "short_sessions": {
+          "<5s": 10,
+          "5-10s": 1
+        },
+        "categories": {
+          "messaging": {
+            "minutes": 15.0,
+            "opens": 1,
+            "average_session_seconds": 900.0,
+            "events": 2,
+            "time_percentage": 93.9
+          },
+          "music": {
+            "minutes": 0.5,
+            "opens": 10,
+            "average_session_seconds": 3.0,
+            "events": 20,
+            "time_percentage": 3.13
+          },
+          "social": {
+            "minutes": 0.47,
+            "opens": 3,
+            "average_session_seconds": 9.5,
+            "events": 6,
+            "time_percentage": 2.97
+          }
+        },
+        "usage_by_hour": [
+          {
+            "hour": "2026-07-16T09:00:00Z",
+            "minutes": 15.44
+          },
+          {
+            "hour": "2026-07-16T10:00:00Z",
+            "minutes": 0.53
+          }
+        ],
+        "events_by_category": {
+          "messaging": 2,
+          "music": 20,
+          "other": 20,
+          "social": 6
+        },
+        "average_session_seconds": 68.5
+      },
+      "compulsive_metrics": {
+        "rapid_reopenings": 0,
+        "average_session_seconds": 68.5,
+        "unlock_to_social_average_seconds": 3.3,
+        "short_session_pressure": {
+          "<5s": 10,
+          "5-10s": 1
+        },
+        "app_switches": 13
+      },
+      "sessions": [
+        {
+          "category": "social",
+          "start_time": "2026-07-16T09:00:02Z",
+          "end_time": "2026-07-16T09:00:12Z",
+          "duration_seconds": 10.0,
+          "unlock_to_open_seconds": 1.5
+        },
+        {
+          "category": "social",
+          "start_time": "2026-07-16T09:15:06Z",
+          "end_time": "2026-07-16T09:15:18Z",
+          "duration_seconds": 12.0,
+          "unlock_to_open_seconds": 5.5
+        },
+        {
+          "category": "social",
+          "start_time": "2026-07-16T09:30:03.500000Z",
+          "end_time": "2026-07-16T09:30:10Z",
+          "duration_seconds": 6.5,
+          "unlock_to_open_seconds": 3.0
+        },
+        {
+          "category": "messaging",
+          "start_time": "2026-07-16T09:45:02Z",
+          "end_time": "2026-07-16T10:00:02Z",
+          "duration_seconds": 900.0,
+          "unlock_to_open_seconds": 1.0
+        },
+        {
+          "category": "music",
+          "start_time": "2026-07-16T10:00:02Z",
+          "end_time": "2026-07-16T10:00:05Z",
+          "duration_seconds": 3.0,
+          "unlock_to_open_seconds": 1.0
+        },
+        {
+          "category": "music",
+          "start_time": "2026-07-16T10:00:32Z",
+          "end_time": "2026-07-16T10:00:35Z",
+          "duration_seconds": 3.0,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "music",
+          "start_time": "2026-07-16T10:01:02Z",
+          "end_time": "2026-07-16T10:01:05Z",
+          "duration_seconds": 3.0,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "music",
+          "start_time": "2026-07-16T10:01:32Z",
+          "end_time": "2026-07-16T10:01:35Z",
+          "duration_seconds": 3.0,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "music",
+          "start_time": "2026-07-16T10:02:02Z",
+          "end_time": "2026-07-16T10:02:05Z",
+          "duration_seconds": 3.0,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "music",
+          "start_time": "2026-07-16T10:02:32Z",
+          "end_time": "2026-07-16T10:02:35Z",
+          "duration_seconds": 3.0,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "music",
+          "start_time": "2026-07-16T10:03:02Z",
+          "end_time": "2026-07-16T10:03:05Z",
+          "duration_seconds": 3.0,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "music",
+          "start_time": "2026-07-16T10:03:32Z",
+          "end_time": "2026-07-16T10:03:35Z",
+          "duration_seconds": 3.0,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "music",
+          "start_time": "2026-07-16T10:04:02Z",
+          "end_time": "2026-07-16T10:04:05Z",
+          "duration_seconds": 3.0,
+          "unlock_to_open_seconds": null
+        },
+        {
+          "category": "music",
+          "start_time": "2026-07-16T10:04:32Z",
+          "end_time": "2026-07-16T10:04:35Z",
+          "duration_seconds": 3.0,
+          "unlock_to_open_seconds": null
+        }
+      ]
+    }
+  ]
+}
